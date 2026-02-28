@@ -1,11 +1,17 @@
-# Dependencies
+# Secrets
+.env
+
+# Cache
 __pycache__/
 *.pyc
-chroma_db/
 
-# Environment
-.env
+# Local DB (sẽ tự tạo trên server)
+chroma_db/
 
 # IDE
 .vscode/
 .idea/
+
+# Files không cần trên server
+app.py
+alphatutor_knowledge_base.json

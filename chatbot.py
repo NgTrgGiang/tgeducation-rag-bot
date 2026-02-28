@@ -1,16 +1,16 @@
 """
-chatbot.py - RAG Chatbot kết hợp Retriever + OpenRouter LLM
+chatbot.py - RAG Chatbot kết hợp Retriever + LLM (OpenRouter hoặc Ollama local)
 
 Flow:
 1. Nhận câu hỏi từ user
 2. Retriever tìm top-K chunks liên quan từ ChromaDB
 3. Xây dựng prompt với context
-4. Gửi cho OpenRouter API (OpenAI-compatible) để sinh câu trả lời
+4. Gửi cho LLM API (OpenAI-compatible) để sinh câu trả lời
 5. Trả về câu trả lời + sources
 """
 from openai import OpenAI
 from retriever import Retriever
-from config import OPENROUTER_API_KEY, OPENROUTER_BASE_URL, LLM_MODEL, SYSTEM_PROMPT, TOP_K
+from config import OPENROUTER_API_KEY, LLM_BASE_URL, LLM_MODEL, SYSTEM_PROMPT, TOP_K
 
 
 class RAGChatbot:
@@ -22,20 +22,32 @@ class RAGChatbot:
         # Init retriever
         self.retriever = Retriever()
 
-        # Init OpenRouter client (OpenAI-compatible)
-        if not OPENROUTER_API_KEY or OPENROUTER_API_KEY == "your_openrouter_api_key_here":
-            raise ValueError(
-                "❌ Chưa cấu hình OPENROUTER_API_KEY!\n"
-                "👉 Lấy API key tại: https://openrouter.ai/keys\n"
-                "👉 Tạo file .env và thêm: OPENROUTER_API_KEY=sk-or-..."
-            )
+        # Detect mode: local (Ollama) or cloud (OpenRouter)
+        self.is_local = "localhost" in LLM_BASE_URL or "127.0.0.1" in LLM_BASE_URL
 
-        self.client = OpenAI(
-            base_url=OPENROUTER_BASE_URL,
-            api_key=OPENROUTER_API_KEY,
-        )
+        if self.is_local:
+            # Ollama - không cần API key
+            self.client = OpenAI(
+                base_url=LLM_BASE_URL,
+                api_key="ollama",  # Ollama không kiểm tra key
+            )
+            provider = "Ollama (local)"
+        else:
+            # OpenRouter - cần API key
+            if not OPENROUTER_API_KEY or OPENROUTER_API_KEY == "your_openrouter_api_key_here":
+                raise ValueError(
+                    "❌ Chưa cấu hình OPENROUTER_API_KEY!\n"
+                    "👉 Lấy API key tại: https://openrouter.ai/keys\n"
+                    "👉 Hoặc dùng Ollama local: LLM_BASE_URL=http://localhost:11434/v1"
+                )
+            self.client = OpenAI(
+                base_url=LLM_BASE_URL,
+                api_key=OPENROUTER_API_KEY,
+            )
+            provider = "OpenRouter"
+
         self.model = LLM_MODEL
-        print(f"✅ RAG Chatbot sẵn sàng! (Model: {self.model} via OpenRouter)")
+        print(f"✅ RAG Chatbot sẵn sàng! (Model: {self.model} via {provider})")
 
     def chat(self, user_message: str, chat_history: list = None) -> dict:
         """
