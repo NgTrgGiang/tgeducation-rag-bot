@@ -146,14 +146,9 @@ def handle_message(sender_id: str, message_text: str):
         chatbot = get_bot()
         result = chatbot.chat(message_text, history)
 
-        # Xây dựng câu trả lời
+        # Xây dựng câu trả lời (bỏ markdown cho Messenger)
         answer = result["answer"]
-
-        # Cảnh báo escalation
-        if result["escalation_needed"]:
-            answer += "\n\n⚠️ Vấn đề này cần nhân viên hỗ trợ trực tiếp."
-            answer += "\n📞 Hotline: 1900-xxxx"
-            answer += "\n💬 Zalo OA: TG Education"
+        answer = answer.replace("**", "").replace("##", "").replace("# ", "")
 
         # Gửi trả lời (chia nhỏ nếu quá dài)
         send_long_text(sender_id, answer)
