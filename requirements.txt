@@ -1,11 +1,11 @@
-# RAG Pipeline
+# RAG Pipeline (lightweight - no PyTorch)
 chromadb>=0.4.22
-sentence-transformers>=2.2.2
 openai>=1.0.0
 python-dotenv>=1.0.0
+onnxruntime>=1.17.0
 
-# Web UI
-gradio>=4.0.0
+# Web UI (chỉ dùng local)
+# gradio>=4.0.0
 
 # Messenger Bot
 flask>=3.0.0

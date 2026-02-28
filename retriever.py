@@ -1,14 +1,10 @@
 """
 retriever.py - Tìm kiếm knowledge chunks liên quan từ ChromaDB
 
-Hỗ trợ:
-- Semantic search (vector similarity)
-- Metadata filtering (category, service, student_level, etc.)
-- Hybrid search (kết hợp cả hai)
+Dùng ChromaDB default embedding (nhẹ, không cần PyTorch)
 """
 import chromadb
-from sentence_transformers import SentenceTransformer
-from config import EMBEDDING_MODEL, CHROMA_PERSIST_DIR, COLLECTION_NAME, TOP_K
+from config import CHROMA_PERSIST_DIR, COLLECTION_NAME, TOP_K
 
 
 class Retriever:
@@ -16,7 +12,6 @@ class Retriever:
 
     def __init__(self):
         print("⏳ Đang khởi tạo Retriever...")
-        self.model = SentenceTransformer(EMBEDDING_MODEL)
         self.client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
         self.collection = self.client.get_collection(COLLECTION_NAME)
         print(f"✅ Retriever sẵn sàng! ({self.collection.count()} documents)")
@@ -37,7 +32,6 @@ class Retriever:
         Args:
             query: Câu hỏi của người dùng
             top_k: Số kết quả trả về
-            category/service/student_level/subject/audience: metadata filters
 
         Returns:
             List[dict] với keys: id, title, content, summary, metadata, distance
@@ -45,15 +39,12 @@ class Retriever:
         if top_k is None:
             top_k = TOP_K
 
-        # Build query embedding
-        query_embedding = self.model.encode([query]).tolist()
-
         # Build metadata filter
         where_filter = self._build_filter(category, service, student_level, subject, audience)
 
-        # Query ChromaDB
+        # Query ChromaDB (tự tạo embedding cho query)
         kwargs = {
-            "query_embeddings": query_embedding,
+            "query_texts": [query],
             "n_results": top_k,
         }
         if where_filter:
@@ -82,7 +73,7 @@ class Retriever:
         return formatted
 
     def _build_filter(self, category, service, student_level, subject, audience) -> dict | None:
-        """Build ChromaDB where filter từ metadata params."""
+        """Build ChromaDB where filter."""
         conditions = []
         if category:
             conditions.append({"category": category})
@@ -122,25 +113,19 @@ Nội dung: {r['content']}
         return "\n\n".join(context_parts)
 
 
-# === CLI test mode ===
+# === CLI test ===
 if __name__ == "__main__":
     retriever = Retriever()
 
     test_queries = [
         "Học phí bao nhiêu?",
         "Muốn đổi giáo viên thì sao?",
-        "Con tôi nghỉ học không báo trước",
         "Tôi muốn hoàn tiền",
-        "Lỗi Zoom không vào được",
     ]
 
     for query in test_queries:
         print(f"\n{'='*60}")
         print(f"📝 Query: {query}")
-        print(f"{'='*60}")
         results = retriever.search(query, top_k=3)
         for r in results:
-            print(f"  [{r['id']}] {r['title']}")
-            print(f"    Category: {r['category']} | Distance: {r['distance']:.4f}")
-            print(f"    Summary: {r['summary'][:80]}...")
-        print()
+            print(f"  [{r['id']}] {r['title']} (dist: {r['distance']:.4f})")

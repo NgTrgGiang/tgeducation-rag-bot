@@ -1,13 +1,14 @@
 """
 ingest.py - Đọc knowledge base JSON → tạo embeddings → lưu vào ChromaDB
 
+Dùng ChromaDB default embedding (onnxruntime - nhẹ, không cần PyTorch)
+
 Chạy: python ingest.py
 """
 import json
 import time
 import chromadb
-from sentence_transformers import SentenceTransformer
-from config import EMBEDDING_MODEL, CHROMA_PERSIST_DIR, COLLECTION_NAME, KB_FILE
+from config import CHROMA_PERSIST_DIR, COLLECTION_NAME, KB_FILE
 
 
 def load_knowledge_base(filepath: str) -> list[dict]:
@@ -25,22 +26,21 @@ def build_document_text(entry: dict) -> str:
     """
     parts = []
 
-    # Title - quan trọng nhất cho semantic search
+    # Title - quan trọng nhất
     parts.append(f"Tiêu đề: {entry['title']}")
 
     # Content - nội dung chính
     parts.append(f"Nội dung: {entry['content']}")
 
-    # Summary - tóm tắt giúp embedding hiểu tổng quan
+    # Summary
     parts.append(f"Tóm tắt: {entry['summary']}")
 
-    # Typical questions - CỰC KỲ QUAN TRỌNG cho RAG
-    # Giúp match câu hỏi user với câu hỏi mẫu
+    # Typical questions - giúp match câu hỏi user
     if entry.get("typical_questions"):
         questions_text = " | ".join(entry["typical_questions"])
         parts.append(f"Câu hỏi thường gặp: {questions_text}")
 
-    # Tags - từ khóa bổ sung
+    # Tags
     if entry.get("tags"):
         parts.append(f"Từ khóa: {', '.join(entry['tags'])}")
 
@@ -48,10 +48,7 @@ def build_document_text(entry: dict) -> str:
 
 
 def build_metadata(entry: dict) -> dict:
-    """
-    Tạo metadata cho ChromaDB filtering.
-    ChromaDB chỉ hỗ trợ str, int, float, bool.
-    """
+    """Tạo metadata cho ChromaDB filtering."""
     return {
         "id": entry["id"],
         "title": entry["title"],
@@ -67,9 +64,7 @@ def build_metadata(entry: dict) -> dict:
         "locale": entry["locale"],
         "escalation_required": entry["escalation_required"],
         "human_handoff_hint": entry.get("human_handoff_hint", ""),
-        # Lưu summary riêng để hiển thị nhanh
         "summary": entry["summary"],
-        # Lưu content gốc để trả về cho LLM
         "content": entry["content"],
     }
 
@@ -83,14 +78,8 @@ def ingest():
     # 1. Load knowledge base
     entries = load_knowledge_base(KB_FILE)
 
-    # 2. Initialize embedding model
-    print(f"\n⏳ Đang tải embedding model: {EMBEDDING_MODEL}...")
-    start = time.time()
-    model = SentenceTransformer(EMBEDDING_MODEL)
-    print(f"✅ Model loaded trong {time.time()-start:.1f}s")
-
-    # 3. Build documents for embedding
-    print("\n📝 Đang xây dựng documents cho embedding...")
+    # 2. Build documents
+    print("\n📝 Đang xây dựng documents...")
     documents = []
     metadatas = []
     ids = []
@@ -102,62 +91,55 @@ def ingest():
         metadatas.append(metadata)
         ids.append(entry["id"])
 
-    # 4. Generate embeddings
-    print(f"\n⏳ Đang tạo embeddings cho {len(documents)} documents...")
-    start = time.time()
-    embeddings = model.encode(documents, show_progress_bar=True, batch_size=8)
-    embeddings_list = embeddings.tolist()
-    print(f"✅ Embeddings created trong {time.time()-start:.1f}s")
-    print(f"   Embedding dimension: {len(embeddings_list[0])}")
-
-    # 5. Store in ChromaDB
+    # 3. Store in ChromaDB (ChromaDB tự tạo embedding bằng default model)
     print(f"\n💾 Đang lưu vào ChromaDB tại {CHROMA_PERSIST_DIR}...")
+    print("   (Sử dụng ChromaDB default embedding - onnxruntime)")
     client = chromadb.PersistentClient(path=CHROMA_PERSIST_DIR)
 
-    # Xóa collection cũ nếu tồn tại (re-ingest)
+    # Xóa collection cũ nếu tồn tại
     try:
         client.delete_collection(COLLECTION_NAME)
         print(f"   Đã xóa collection cũ '{COLLECTION_NAME}'")
     except Exception:
         pass
 
+    # Tạo collection MỚI - ChromaDB sẽ tự dùng default embedding function
     collection = client.create_collection(
         name=COLLECTION_NAME,
         metadata={"description": "TG Education K12 Customer Support Knowledge Base"}
     )
 
-    # Add documents in batches
+    # Add documents (ChromaDB tự tạo embeddings)
+    start = time.time()
     batch_size = 20
     for i in range(0, len(documents), batch_size):
         end = min(i + batch_size, len(documents))
         collection.add(
             ids=ids[i:end],
             documents=documents[i:end],
-            embeddings=embeddings_list[i:end],
             metadatas=metadatas[i:end],
         )
         print(f"   Đã thêm batch {i//batch_size + 1}: entries {i+1}-{end}")
 
-    # 6. Verify
+    print(f"   Embeddings created trong {time.time()-start:.1f}s")
+
+    # 4. Verify
     count = collection.count()
     print(f"\n{'=' * 60}")
     print(f"✅ HOÀN TẤT! Đã ingest {count} documents vào ChromaDB")
-    print(f"   Collection: {COLLECTION_NAME}")
-    print(f"   Persist dir: {CHROMA_PERSIST_DIR}")
     print(f"{'=' * 60}")
 
     # Quick test
     print("\n🔍 Quick test - tìm kiếm 'học phí bao nhiêu'...")
-    test_query = "học phí bao nhiêu"
-    test_embedding = model.encode([test_query]).tolist()
     results = collection.query(
-        query_embeddings=test_embedding,
+        query_texts=["học phí bao nhiêu"],
         n_results=3,
     )
     print(f"   Top 3 kết quả:")
-    for i, (doc_id, distance) in enumerate(zip(results["ids"][0], results["distances"][0])):
+    for i, doc_id in enumerate(results["ids"][0]):
         meta = results["metadatas"][0][i]
-        print(f"   {i+1}. [{doc_id}] {meta['title']} (distance: {distance:.4f})")
+        dist = results["distances"][0][i]
+        print(f"   {i+1}. [{doc_id}] {meta['title']} (distance: {dist:.4f})")
 
 
 if __name__ == "__main__":
