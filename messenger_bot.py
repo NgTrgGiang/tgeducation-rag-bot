@@ -149,12 +149,6 @@ def handle_message(sender_id: str, message_text: str):
         # Xây dựng câu trả lời
         answer = result["answer"]
 
-        # Thêm nguồn tham khảo (rút gọn cho Messenger)
-        if result["sources"]:
-            answer += "\n\n📚 Nguồn:"
-            for s in result["sources"][:2]:  # Chỉ hiện top 2 trên Messenger
-                answer += f"\n• {s['title']}"
-
         # Cảnh báo escalation
         if result["escalation_needed"]:
             answer += "\n\n⚠️ Vấn đề này cần nhân viên hỗ trợ trực tiếp."
