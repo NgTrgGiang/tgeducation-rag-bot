@@ -1,0 +1,11 @@
+# Dependencies
+__pycache__/
+*.pyc
+chroma_db/
+
+# Environment
+.env
+
+# IDE
+.vscode/
+.idea/

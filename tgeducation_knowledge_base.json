@@ -1,0 +1,1543 @@
+[
+  {
+    "id": "KB-K12-0001",
+    "title": "Quy trình đăng ký học tại TG Education",
+    "content": "Để đăng ký học tại TG Education Center, phụ huynh hoặc học sinh thực hiện các bước sau. Bước 1: Truy cập website tgeducation.vn hoặc liên hệ hotline 1900-xxxx để được tư vấn. Bước 2: Cung cấp thông tin học sinh gồm họ tên, ngày sinh, lớp đang học, môn muốn đăng ký và mục tiêu học tập. Bước 3: Tham gia bài kiểm tra đầu vào miễn phí (trực tuyến hoặc tại trung tâm) để đánh giá trình độ hiện tại. Bước 4: Nhận kết quả kiểm tra và lộ trình học được đề xuất bởi giáo viên chuyên môn. Bước 5: Chọn hình thức học phù hợp gồm học 1-1, nhóm nhỏ hoặc lớp luyện thi. Bước 6: Xác nhận đăng ký và thanh toán học phí theo gói đã chọn. Sau khi hoàn tất, hệ thống gửi email xác nhận kèm lịch học chi tiết. Toàn bộ quy trình mất khoảng hai đến ba ngày làm việc.",
+    "summary": "Hướng dẫn chi tiết 6 bước đăng ký học tại TG Education từ tư vấn đến xác nhận lịch học.",
+    "category": "enrollment",
+    "tags": [
+      "đăng ký",
+      "nhập học",
+      "quy trình",
+      "tư vấn"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "enroll_new_student",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/huong-dan/dang-ky",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-21T09:00:00+07:00",
+    "updated_at": "2025-11-29T13:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0002",
+      "KB-K12-0003"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho nhân viên tư vấn nếu phụ huynh yêu cầu tư vấn chuyên sâu về lộ trình học cá nhân hóa.",
+    "typical_questions": [
+      "Làm sao để đăng ký học tại TG Education?",
+      "Quy trình nhập học như thế nào?",
+      "Con tôi muốn đăng ký học, bắt đầu từ đâu?",
+      "Đăng ký học cần chuẩn bị gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0002",
+    "title": "Kiểm tra đầu vào cho học sinh mới",
+    "content": "TG Education tổ chức kiểm tra đầu vào miễn phí cho tất cả học sinh mới nhằm đánh giá chính xác trình độ hiện tại. Bài kiểm tra bao gồm các câu hỏi trắc nghiệm và tự luận, thiết kế theo chuẩn chương trình Bộ Giáo dục và Đào tạo. Thời gian làm bài từ 30 đến 60 phút tùy theo môn và cấp lớp. Học sinh có thể làm bài trực tuyến qua hệ thống LMS của trung tâm hoặc đến trực tiếp tại cơ sở Hà Nội hoặc TP.HCM. Kết quả được trả trong vòng 24 giờ kèm phân tích điểm mạnh và điểm yếu. Dựa trên kết quả này, giáo viên chuyên môn sẽ đề xuất lộ trình học phù hợp với mục tiêu của từng học sinh. Phụ huynh nhận báo cáo chi tiết qua email hoặc Zalo.",
+    "summary": "Mô tả quy trình kiểm tra đầu vào miễn phí giúp đánh giá trình độ và xây dựng lộ trình cho học sinh mới.",
+    "category": "enrollment",
+    "tags": [
+      "kiểm tra đầu vào",
+      "đánh giá trình độ",
+      "test"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "placement_test",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/kiem-tra-dau-vao",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-02T11:00:00+07:00",
+    "updated_at": "2025-10-17T12:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0001",
+      "KB-K12-0004"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho bộ phận học vụ nếu cần hỗ trợ sắp xếp lịch kiểm tra ngoài giờ hành chính.",
+    "typical_questions": [
+      "Có cần thi đầu vào không?",
+      "Kiểm tra đầu vào bao gồm những gì?",
+      "Bài test xếp lớp mất bao lâu?",
+      "Con tôi có thể làm bài kiểm tra online không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0003",
+    "title": "Đặt lịch học thử miễn phí",
+    "content": "Học sinh mới được tham gia một buổi học thử miễn phí trước khi quyết định đăng ký khóa học chính thức. Để đặt lịch học thử, phụ huynh truy cập trang tgeducation.vn/hoc-thu hoặc nhắn tin qua Zalo OA của trung tâm. Cần cung cấp thông tin gồm tên học sinh, lớp, môn học muốn thử và khung giờ mong muốn. Bộ phận tư vấn sẽ xác nhận lịch trong vòng 4 giờ làm việc. Buổi học thử kéo dài 45 phút đối với lớp nhóm và 60 phút đối với lớp 1-1. Sau buổi học thử, giáo viên gửi nhận xét đánh giá năng lực và đề xuất chương trình phù hợp. Mỗi học sinh chỉ được đăng ký một buổi học thử cho mỗi môn học. Buổi học thử áp dụng cho cả hình thức trực tuyến và trực tiếp.",
+    "summary": "Hướng dẫn đặt lịch học thử miễn phí gồm cách đăng ký, thời lượng và quy định tại TG Education.",
+    "category": "enrollment",
+    "tags": [
+      "học thử",
+      "dùng thử",
+      "miễn phí",
+      "trải nghiệm"
+    ],
+    "service": "trial_lesson",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "book_trial",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/hoc-thu",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-26T16:00:00+07:00",
+    "updated_at": "2025-12-08T22:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0001"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn viên khi phụ huynh muốn sắp xếp giáo viên theo yêu cầu đặc biệt.",
+    "typical_questions": [
+      "Có được học thử trước khi đăng ký không?",
+      "Đặt lịch học thử như thế nào?",
+      "Buổi học thử kéo dài bao lâu?",
+      "Học thử miễn phí phải không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0004",
+    "title": "Xác nhận lớp học và lịch học",
+    "content": "Sau khi hoàn tất đăng ký và thanh toán, hệ thống TG Education tự động gửi email và tin nhắn Zalo xác nhận lớp học. Thông tin xác nhận bao gồm tên giáo viên, lịch học cụ thể theo tuần, phòng học hoặc link phòng trực tuyến, và danh sách tài liệu cần chuẩn bị. Phụ huynh cần kiểm tra và phản hồi xác nhận trong vòng 48 giờ. Nếu cần điều chỉnh lịch, vui lòng liên hệ bộ phận học vụ trước ngày khai giảng ít nhất 2 ngày làm việc. Trường hợp không phản hồi sau 48 giờ, lịch học được coi là đã xác nhận. Học sinh có thể theo dõi lịch học và thông tin lớp qua tài khoản cá nhân trên hệ thống LMS tại app.tgeducation.vn.",
+    "summary": "Quy trình xác nhận lớp học sau đăng ký gồm nội dung thông báo, thời hạn phản hồi và cách điều chỉnh.",
+    "category": "scheduling",
+    "tags": [
+      "xác nhận",
+      "lịch học",
+      "lớp học",
+      "khai giảng"
+    ],
+    "service": "group_class",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "confirm_enrollment",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/xac-nhan-lop",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-05T08:00:00+07:00",
+    "updated_at": "2025-09-17T11:00:00+07:00",
+    "locale": "HN",
+    "related_ids": [
+      "KB-K12-0001",
+      "KB-K12-0008"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho học vụ nếu phụ huynh yêu cầu đổi lịch sau khi đã xác nhận.",
+    "typical_questions": [
+      "Làm sao biết lịch học chính thức?",
+      "Khi nào nhận được xác nhận lớp?",
+      "Tôi muốn đổi lịch sau khi đã xác nhận được không?",
+      "Xem lịch học ở đâu?"
+    ]
+  },
+  {
+    "id": "KB-K12-0005",
+    "title": "Bảng học phí theo buổi và theo gói",
+    "content": "TG Education áp dụng hai hình thức tính học phí. Hình thức theo buổi: học 1-1 từ 250.000 đến 400.000 đồng mỗi buổi tùy môn và cấp lớp; lớp nhóm nhỏ từ 120.000 đến 200.000 đồng mỗi buổi. Hình thức theo gói: gói 20 buổi giảm 10 phần trăm, gói 40 buổi giảm 15 phần trăm, gói 60 buổi giảm 20 phần trăm so với giá lẻ. Học phí luyện thi chuyên đề (Thi vào 10, THPTQG) có bảng giá riêng và được báo trước mỗi khóa. Học phí chưa bao gồm tài liệu in ấn nếu có. Phụ huynh thanh toán hằng tháng hoặc toàn bộ gói tùy chọn. Mức học phí trên áp dụng từ tháng 1 năm 2026 và có thể điều chỉnh vào đầu mỗi học kỳ với thông báo trước 30 ngày.",
+    "summary": "Thông tin chi tiết về mức học phí theo buổi lẻ và theo gói tại TG Education.",
+    "category": "pricing_billing",
+    "tags": [
+      "học phí",
+      "giá",
+      "gói học",
+      "chi phí"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "ask_pricing",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "pricing_sheet",
+    "source_url": "tgeducation.vn/hoc-phi",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-30T16:00:00+07:00",
+    "updated_at": "2025-11-14T16:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0006",
+      "KB-K12-0007"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho bộ phận tài vụ khi phụ huynh hỏi về giá khóa luyện thi chuyên đề hoặc yêu cầu báo giá đặc biệt.",
+    "typical_questions": [
+      "Học phí bao nhiêu?",
+      "Giá học 1 kèm 1 là bao nhiêu?",
+      "Học nhóm phí bao nhiêu 1 buổi?",
+      "Có gói học phí tháng không?",
+      "Học phí lớp nhóm và 1-1 khác nhau thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0006",
+    "title": "Chính sách giảm giá học phí",
+    "content": "TG Education áp dụng các chương trình giảm giá sau. Giảm 5 phần trăm khi đăng ký từ 2 môn trở lên cho cùng một học sinh. Giảm 10 phần trăm cho học sinh thứ hai trở đi trong cùng một gia đình (anh chị em ruột). Giảm 15 phần trăm cho học sinh thuộc diện chính sách hoặc có hoàn cảnh khó khăn khi có giấy xác nhận từ địa phương. Giảm 5 phần trăm khi thanh toán trước toàn bộ gói học từ 40 buổi. Các chương trình giảm giá không cộng dồn, chỉ áp dụng mức giảm cao nhất. Ưu đãi giới thiệu bạn bè: mỗi học sinh giới thiệu thành công 1 bạn mới đăng ký gói từ 20 buổi sẽ được tặng 2 buổi học miễn phí. Chính sách giảm giá có hiệu lực từ ngày 01 tháng 01 năm 2026.",
+    "summary": "Tổng hợp các chương trình giảm giá học phí gồm giảm theo số môn, anh chị em, chính sách và giới thiệu bạn bè.",
+    "category": "pricing_billing",
+    "tags": [
+      "giảm giá",
+      "ưu đãi",
+      "khuyến mãi",
+      "học bổng"
+    ],
+    "service": "long_term_program",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "ask_discount",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "pricing_sheet",
+    "source_url": "tgeducation.vn/uu-dai",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-11T11:00:00+07:00",
+    "updated_at": "2026-01-02T19:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0005"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tài vụ nếu phụ huynh yêu cầu xác nhận diện chính sách hoặc giảm giá đặc biệt.",
+    "typical_questions": [
+      "Có chương trình giảm giá nào không?",
+      "Đăng ký 2 môn có giảm giá không?",
+      "Anh em học cùng có ưu đãi gì?",
+      "Giới thiệu bạn bè được gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0007",
+    "title": "Hướng dẫn thanh toán học phí",
+    "content": "Phụ huynh có thể thanh toán học phí qua các hình thức sau. Chuyển khoản ngân hàng: số tài khoản 1234567890 tại Ngân hàng Vietcombank chi nhánh Hà Nội, chủ tài khoản Công ty TNHH TG Education. Nội dung chuyển khoản ghi rõ mã học sinh và tên học sinh. Ví điện tử MoMo và ZaloPay: quét mã QR trên ứng dụng hoặc website. Thanh toán tiền mặt tại quầy lễ tân các cơ sở Hà Nội và TP.HCM trong giờ hành chính. Sau khi thanh toán, phụ huynh nhận biên lai điện tử qua email trong vòng 24 giờ. Trường hợp cần xuất hóa đơn VAT, vui lòng yêu cầu trước hoặc trong vòng 7 ngày sau thanh toán kèm thông tin xuất hóa đơn đầy đủ.",
+    "summary": "Các hình thức thanh toán học phí gồm chuyển khoản, ví điện tử, tiền mặt và hướng dẫn xuất hóa đơn.",
+    "category": "pricing_billing",
+    "tags": [
+      "thanh toán",
+      "chuyển khoản",
+      "hóa đơn",
+      "MoMo"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "make_payment",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/thanh-toan",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-24T11:00:00+07:00",
+    "updated_at": "2025-11-28T15:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0005"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho kế toán nếu phụ huynh gặp lỗi thanh toán hoặc cần hỗ trợ xuất hóa đơn đỏ.",
+    "typical_questions": [
+      "Thanh toán bằng cách nào?",
+      "Có chuyển khoản được không?",
+      "Thanh toán qua MoMo được không?",
+      "Làm sao xin hóa đơn VAT?",
+      "Số tài khoản chuyển khoản là gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0008",
+    "title": "Điều kiện hoàn tiền học phí",
+    "content": "TG Education áp dụng chính sách hoàn tiền như sau. Hoàn 100 phần trăm nếu yêu cầu hủy trước ngày khai giảng ít nhất 3 ngày làm việc. Hoàn 70 phần trăm giá trị còn lại nếu đã học dưới 30 phần trăm tổng số buổi trong gói. Hoàn 50 phần trăm giá trị còn lại nếu đã học từ 30 đến 50 phần trăm tổng số buổi. Không hoàn tiền nếu đã học trên 50 phần trăm tổng số buổi trong gói. Thời gian xử lý hoàn tiền từ 7 đến 14 ngày làm việc kể từ ngày nhận được yêu cầu hợp lệ. Hoàn tiền qua hình thức chuyển khoản ngân hàng theo thông tin phụ huynh cung cấp. Các buổi học sinh vắng không báo trước không được tính vào số buổi chưa học. Yêu cầu hoàn tiền gửi qua email support@tgeducation.vn.",
+    "summary": "Chính sách hoàn tiền chi tiết theo tỉ lệ buổi đã học, thời gian xử lý và điều kiện áp dụng.",
+    "category": "policies",
+    "tags": [
+      "hoàn tiền",
+      "hủy khóa",
+      "refund",
+      "trả lại"
+    ],
+    "service": "long_term_program",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "refund_request",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/hoan-tien",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-13T08:00:00+07:00",
+    "updated_at": "2026-02-06T10:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0009",
+      "KB-K12-0005"
+    ],
+    "escalation_required": true,
+    "human_handoff_hint": "Luôn chuyển cho quản lý tài vụ khi phụ huynh yêu cầu hoàn tiền để xác minh và phê duyệt.",
+    "typical_questions": [
+      "Tôi muốn dừng học và xin hoàn tiền?",
+      "Chính sách hoàn tiền như thế nào?",
+      "Hủy khóa học có được trả lại tiền không?",
+      "Hoàn tiền mất bao lâu?"
+    ]
+  },
+  {
+    "id": "KB-K12-0009",
+    "title": "Trường hợp không được hoàn tiền",
+    "content": "Một số trường hợp không áp dụng hoàn tiền tại TG Education. Học sinh đã hoàn thành trên 50 phần trăm số buổi học trong gói đăng ký. Học sinh vi phạm nội quy nghiêm trọng dẫn đến bị đình chỉ học. Các buổi học thử miễn phí hoặc buổi được tặng trong chương trình khuyến mãi. Phụ huynh không gửi yêu cầu hoàn tiền trong vòng 30 ngày kể từ buổi học cuối cùng. Gói học theo chương trình ưu đãi đặc biệt có ghi chú không hoàn tiền tại thời điểm đăng ký. Trường hợp phát sinh tranh chấp, phụ huynh có quyền gửi khiếu nại đến bộ phận chăm sóc khách hàng để được xem xét lại theo quy trình xử lý khiếu nại.",
+    "summary": "Liệt kê các trường hợp cụ thể không áp dụng chính sách hoàn tiền học phí.",
+    "category": "policies",
+    "tags": [
+      "không hoàn tiền",
+      "ngoại lệ",
+      "điều kiện"
+    ],
+    "service": "long_term_program",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "refund_exception",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/hoan-tien",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-29T14:00:00+07:00",
+    "updated_at": "2025-12-27T18:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0008"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý nếu phụ huynh không đồng ý với quyết định từ chối hoàn tiền.",
+    "typical_questions": [
+      "Trường hợp nào không được hoàn tiền?",
+      "Đã học hơn nửa gói có hoàn được không?",
+      "Gói khuyến mãi có hoàn tiền không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0010",
+    "title": "Quy định xin nghỉ buổi học",
+    "content": "Học sinh cần báo nghỉ trước ít nhất 4 giờ so với giờ bắt đầu buổi học. Phụ huynh hoặc học sinh báo nghỉ qua ứng dụng LMS, tin nhắn Zalo OA hoặc gọi hotline. Mỗi tháng, học sinh được phép nghỉ tối đa 2 buổi có báo trước và được xếp lịch học bù. Buổi nghỉ không báo trước (no-show) sẽ bị tính là đã sử dụng và không được bù. Trường hợp nghỉ do ốm đau có giấy xác nhận y tế, trung tâm xem xét bù buổi ngay cả khi không báo trước đủ 4 giờ. Lịch học bù được sắp xếp trong vòng 2 tuần tùy theo slot trống của giáo viên. Học sinh nghỉ liên tục trên 4 tuần cần thông báo tạm dừng khóa học theo quy định riêng.",
+    "summary": "Quy định báo nghỉ, thời hạn thông báo, số buổi nghỉ cho phép và chính sách học bù.",
+    "category": "scheduling",
+    "tags": [
+      "nghỉ học",
+      "báo nghỉ",
+      "vắng",
+      "học bù"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "request_absence",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/nghi-hoc",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-20T11:00:00+07:00",
+    "updated_at": "2025-11-14T16:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0011",
+      "KB-K12-0012"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho học vụ nếu học sinh nghỉ nhiều buổi liên tiếp hoặc phụ huynh yêu cầu xếp lịch bù đặc biệt.",
+    "typical_questions": [
+      "Con tôi muốn nghỉ 1 buổi phải làm sao?",
+      "Báo nghỉ trước bao lâu?",
+      "Nghỉ có được học bù không?",
+      "Mỗi tháng được nghỉ mấy buổi?"
+    ]
+  },
+  {
+    "id": "KB-K12-0011",
+    "title": "Đổi lịch học và đổi ca",
+    "content": "Phụ huynh có thể yêu cầu đổi lịch học cố định khi có thay đổi thời khóa biểu ở trường. Yêu cầu đổi lịch cần gửi trước ít nhất 3 ngày làm việc qua Zalo OA hoặc email học vụ. Trung tâm sẽ kiểm tra lịch trống của giáo viên đang phụ trách và xác nhận lịch mới trong vòng 48 giờ. Trường hợp giáo viên hiện tại không có ca phù hợp, trung tâm đề xuất giáo viên thay thế có cùng chuyên môn. Phụ huynh có quyền đồng ý hoặc giữ lịch cũ nếu không hài lòng với giáo viên được đề xuất. Mỗi học kỳ, học sinh được đổi lịch cố định tối đa 2 lần để đảm bảo tính ổn định trong học tập. Đổi lịch đột xuất cho từng buổi lẻ áp dụng quy định xin nghỉ và học bù.",
+    "summary": "Hướng dẫn quy trình đổi lịch học cố định gồm thời hạn yêu cầu, số lần cho phép và xử lý khi giáo viên không có ca trống.",
+    "category": "scheduling",
+    "tags": [
+      "đổi lịch",
+      "đổi ca",
+      "thay đổi giờ học"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "reschedule_class",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/doi-lich",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-14T09:00:00+07:00",
+    "updated_at": "2025-10-15T10:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0010"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho học vụ khi phụ huynh yêu cầu đổi lịch lần thứ 3 trong học kỳ.",
+    "typical_questions": [
+      "Tôi muốn đổi lịch học được không?",
+      "Đổi sang ca khác có được không?",
+      "Đổi lịch cố định cần báo trước mấy ngày?",
+      "Mỗi kỳ được đổi lịch mấy lần?"
+    ]
+  },
+  {
+    "id": "KB-K12-0012",
+    "title": "Xử lý no-show và buổi vắng không báo trước",
+    "content": "Trường hợp học sinh không tham gia buổi học và không báo trước ít nhất 4 giờ được tính là no-show. Buổi no-show vẫn bị trừ vào gói học và không được xếp lịch bù. Giáo viên vẫn được trả thù lao cho buổi dạy đó. Nếu học sinh no-show 3 lần liên tiếp, hệ thống tự động gửi thông báo nhắc nhở đến phụ huynh qua email và Zalo. Sau 5 lần no-show trong một gói học, bộ phận học vụ liên hệ phụ huynh để trao đổi tình hình và điều chỉnh lịch nếu cần. Trường hợp đặc biệt như tai nạn, nhập viện có giấy xác nhận, trung tâm xem xét hoàn lại buổi no-show theo quyết định của quản lý.",
+    "summary": "Quy định xử lý khi học sinh vắng không báo trước gồm hậu quả, cảnh báo tự động và ngoại lệ.",
+    "category": "scheduling",
+    "tags": [
+      "no-show",
+      "vắng",
+      "không báo",
+      "nghỉ không phép"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "handle_noshow",
+    "audience": "internal_agent",
+    "priority": "medium",
+    "sensitivity": "internal",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/no-show",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-16T13:00:00+07:00",
+    "updated_at": "2025-11-30T17:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0010"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý học vụ khi học sinh no-show từ 5 lần và phụ huynh không phản hồi liên lạc.",
+    "typical_questions": [
+      "Con tôi quên buổi học thì sao?",
+      "Không đến học mà không báo có bị mất buổi không?",
+      "No-show có được bù không?",
+      "Vắng không phép nhiều lần thì sao?"
+    ]
+  },
+  {
+    "id": "KB-K12-0013",
+    "title": "Yêu cầu đổi giáo viên",
+    "content": "Phụ huynh và học sinh có quyền yêu cầu đổi giáo viên nếu cảm thấy phương pháp giảng dạy không phù hợp. Yêu cầu được gửi qua Zalo OA, email hoặc hotline kèm lý do cụ thể. Bộ phận quản lý giáo viên tiếp nhận và phản hồi trong vòng 48 giờ làm việc. Trung tâm sẽ đề xuất từ 1 đến 2 giáo viên thay thế có cùng chuyên môn và kinh nghiệm. Phụ huynh được tham gia một buổi học thử miễn phí với giáo viên mới trước khi xác nhận chuyển đổi. Nếu sau 2 lần đổi giáo viên vẫn chưa hài lòng, quản lý trung tâm sẽ trực tiếp trao đổi với phụ huynh để tìm giải pháp phù hợp nhất. Việc đổi giáo viên không phát sinh thêm chi phí.",
+    "summary": "Quy trình yêu cầu đổi giáo viên gồm cách gửi yêu cầu, thời gian phản hồi và chính sách thử giáo viên mới.",
+    "category": "teacher_management",
+    "tags": [
+      "đổi giáo viên",
+      "giáo viên",
+      "thay giáo viên"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "change_teacher",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/doi-giao-vien",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-13T08:00:00+07:00",
+    "updated_at": "2026-02-04T15:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0014"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý giáo viên khi đã đổi 2 lần mà phụ huynh vẫn không hài lòng.",
+    "typical_questions": [
+      "Tôi muốn đổi giáo viên có được không?",
+      "Không hợp với thầy/cô hiện tại, đổi thế nào?",
+      "Đổi giáo viên có mất phí không?",
+      "Đổi giáo viên bao lâu thì có người mới?"
+    ]
+  },
+  {
+    "id": "KB-K12-0014",
+    "title": "Đánh giá chất lượng giáo viên",
+    "content": "TG Education thực hiện đánh giá chất lượng giáo viên định kỳ hằng tháng. Phụ huynh và học sinh được mời đánh giá qua khảo sát trực tuyến sau mỗi 8 buổi học. Các tiêu chí đánh giá bao gồm kiến thức chuyên môn, khả năng truyền đạt, sự tận tâm và đúng giờ, khả năng tương tác với học sinh. Giáo viên có điểm đánh giá trung bình dưới 3.5 trên 5 sẽ được quản lý dự giờ và hỗ trợ cải thiện. Nếu sau 2 tháng không cải thiện, giáo viên sẽ được điều chuyển hoặc ngừng hợp tác. Kết quả đánh giá được bảo mật và chỉ chia sẻ giữa ban quản lý và giáo viên liên quan. Phụ huynh có thể gửi phản hồi bất kỳ lúc nào ngoài khảo sát định kỳ.",
+    "summary": "Quy trình đánh giá chất lượng giáo viên định kỳ gồm tiêu chí, tần suất và biện pháp xử lý.",
+    "category": "teacher_management",
+    "tags": [
+      "đánh giá",
+      "giáo viên",
+      "chất lượng",
+      "khảo sát"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "rate_teacher",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "internal",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/danh-gia-giao-vien",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-08T09:00:00+07:00",
+    "updated_at": "2025-12-09T10:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0013",
+      "KB-K12-0015"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý khi phụ huynh gửi khiếu nại nghiêm trọng về thái độ hoặc năng lực giáo viên.",
+    "typical_questions": [
+      "Giáo viên có được đánh giá thường xuyên không?",
+      "Tôi muốn đánh giá giáo viên ở đâu?",
+      "Tiêu chí đánh giá giáo viên gồm gì?",
+      "Giáo viên bị đánh giá kém thì sao?"
+    ]
+  },
+  {
+    "id": "KB-K12-0015",
+    "title": "Khiếu nại về giáo viên",
+    "content": "Khi phụ huynh hoặc học sinh có khiếu nại liên quan đến giáo viên, bộ phận chăm sóc khách hàng tiếp nhận qua tất cả kênh hỗ trợ và ghi nhận trong hệ thống CRM. Các bước xử lý gồm: tiếp nhận và xác nhận khiếu nại trong 24 giờ, quản lý giáo viên xác minh thông tin trong 48 giờ bằng cách kiểm tra nhật ký lớp học và recording buổi học trực tuyến, trao đổi với giáo viên liên quan. Sau khi xác minh, quản lý thông báo kết quả và biện pháp xử lý cho phụ huynh. Các biện pháp có thể bao gồm nhắc nhở giáo viên, đổi giáo viên, bù buổi học hoặc giảm giá. Trường hợp khiếu nại nghiêm trọng liên quan đến hành vi không phù hợp, giám đốc trung tâm trực tiếp xử lý trong vòng 24 giờ.",
+    "summary": "Quy trình tiếp nhận và xử lý khiếu nại về giáo viên từ tiếp nhận đến thông báo kết quả.",
+    "category": "complaints",
+    "tags": [
+      "khiếu nại",
+      "giáo viên",
+      "phản ánh",
+      "tố cáo"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "complain_teacher",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "restricted",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/khieu-nai/giao-vien",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-10T12:00:00+07:00",
+    "updated_at": "2026-01-09T17:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0013",
+      "KB-K12-0014"
+    ],
+    "escalation_required": true,
+    "human_handoff_hint": "Luôn chuyển cho quản lý giáo viên và giám đốc trung tâm với mọi khiếu nại về hành vi giáo viên.",
+    "typical_questions": [
+      "Tôi muốn khiếu nại về giáo viên",
+      "Giáo viên dạy không tốt, phản ánh ở đâu?",
+      "Khiếu nại giáo viên bao lâu có kết quả?",
+      "Giáo viên có thái độ không tốt, tôi nên làm gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0016",
+    "title": "Báo cáo tiến độ học tập",
+    "content": "TG Education cung cấp báo cáo tiến độ học tập định kỳ cho phụ huynh. Báo cáo tuần: giáo viên cập nhật nhận xét ngắn sau mỗi buổi học trên hệ thống LMS, phụ huynh xem qua tài khoản hoặc nhận qua Zalo. Báo cáo tháng: tổng hợp đánh giá kiến thức đã học, điểm kiểm tra định kỳ, so sánh tiến bộ với tháng trước, và khuyến nghị từ giáo viên. Báo cáo học kỳ: đánh giá toàn diện kèm đề xuất điều chỉnh lộ trình nếu cần. Phụ huynh có thể yêu cầu lịch hẹn trao đổi trực tiếp với giáo viên mỗi tháng một lần qua hệ thống đặt lịch. Tất cả báo cáo được lưu trữ trên hệ thống và phụ huynh có thể truy cập lịch sử bất kỳ lúc nào.",
+    "summary": "Mô tả các loại báo cáo tiến độ (tuần, tháng, học kỳ) mà phụ huynh nhận được từ TG Education.",
+    "category": "learning_support",
+    "tags": [
+      "báo cáo",
+      "tiến độ",
+      "kết quả",
+      "nhận xét"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "view_progress",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/bao-cao-tien-do",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-13T11:00:00+07:00",
+    "updated_at": "2026-01-04T12:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0017"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho giáo viên phụ trách khi phụ huynh yêu cầu trao đổi chi tiết về học lực.",
+    "typical_questions": [
+      "Làm sao theo dõi tiến độ học của con?",
+      "Có báo cáo học tập hàng tuần không?",
+      "Xem nhận xét giáo viên ở đâu?",
+      "Báo cáo tháng gửi qua đâu?"
+    ]
+  },
+  {
+    "id": "KB-K12-0017",
+    "title": "Lộ trình học cá nhân hóa",
+    "content": "Mỗi học sinh tại TG Education được xây dựng lộ trình học riêng dựa trên kết quả kiểm tra đầu vào và mục tiêu cá nhân. Lộ trình bao gồm các mốc kiến thức cần đạt theo từng giai đoạn, bài tập thực hành và đề kiểm tra phù hợp. Giáo viên rà soát và điều chỉnh lộ trình sau mỗi tháng dựa trên tiến độ thực tế. Đối với học sinh luyện thi vào 10 hoặc THPTQG, lộ trình được thiết kế ngược từ ngày thi với các giai đoạn ôn cơ bản, nâng cao và luyện đề. Phụ huynh nhận bản lộ trình qua email sau buổi tư vấn đầu tiên và có thể xem trực tiếp trên LMS. Lộ trình có thể thay đổi khi học sinh chuyển mục tiêu hoặc cần bổ sung kiến thức.",
+    "summary": "Cách TG Education xây dựng lộ trình học cá nhân hóa theo trình độ và mục tiêu từng học sinh.",
+    "category": "learning_support",
+    "tags": [
+      "lộ trình",
+      "kế hoạch",
+      "cá nhân hóa",
+      "mục tiêu"
+    ],
+    "service": "exam_prep",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "view_learning_path",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/lo-trinh-hoc",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-06T18:00:00+07:00",
+    "updated_at": "2025-09-27T22:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0002",
+      "KB-K12-0016"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho giáo viên chuyên môn nếu phụ huynh muốn thay đổi mục tiêu hoặc điều chỉnh lộ trình.",
+    "typical_questions": [
+      "Lộ trình học của con được xây dựng thế nào?",
+      "Có chương trình riêng cho từng học sinh không?",
+      "Muốn thay đổi mục tiêu học thì sao?",
+      "Xem lộ trình học ở đâu?"
+    ]
+  },
+  {
+    "id": "KB-K12-0018",
+    "title": "Theo dõi kết quả thi và đánh giá",
+    "content": "Hệ thống LMS của TG Education lưu trữ toàn bộ kết quả kiểm tra và đánh giá của học sinh. Phụ huynh đăng nhập tài khoản để xem điểm kiểm tra định kỳ, điểm kiểm tra đầu vào, và điểm các bài thi thử. Hệ thống hiển thị biểu đồ tiến bộ theo thời gian, so sánh với mục tiêu đã đề ra. Giáo viên nhập điểm và nhận xét chi tiết cho từng bài kiểm tra trong vòng 48 giờ sau khi chấm. Phụ huynh nhận thông báo tự động qua Zalo khi có kết quả mới. Đối với học sinh luyện thi, hệ thống phân tích điểm theo từng dạng bài và đề xuất dạng cần luyện thêm. Kết quả thi thử được so sánh với dữ liệu trung bình của học sinh cùng khối.",
+    "summary": "Cách theo dõi kết quả thi và đánh giá trên hệ thống LMS gồm biểu đồ, phân tích và thông báo tự động.",
+    "category": "learning_support",
+    "tags": [
+      "kết quả",
+      "điểm thi",
+      "đánh giá",
+      "LMS"
+    ],
+    "service": "exam_prep",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "view_exam_results",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/ket-qua-thi",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-11T11:00:00+07:00",
+    "updated_at": "2025-09-24T17:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0016",
+      "KB-K12-0017"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho bộ phận IT nếu phụ huynh không truy cập được kết quả trên hệ thống LMS.",
+    "typical_questions": [
+      "Xem điểm kiểm tra ở đâu?",
+      "Kết quả thi thử cập nhật khi nào?",
+      "Có biểu đồ tiến bộ của con không?",
+      "Điểm thi thử so với trung bình thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0019",
+    "title": "Xử lý lỗi Zoom và Google Meet",
+    "content": "Khi học sinh gặp lỗi kỹ thuật trước hoặc trong buổi học trực tuyến, cần thực hiện các bước sau. Bước 1: Kiểm tra kết nối internet bằng cách mở trình duyệt truy cập website bất kỳ. Bước 2: Thoát ứng dụng Zoom hoặc Google Meet hoàn toàn rồi mở lại. Bước 3: Kiểm tra cập nhật ứng dụng lên phiên bản mới nhất. Bước 4: Nếu vẫn lỗi, thử đăng nhập bằng trình duyệt Chrome thay vì ứng dụng. Bước 5: Liên hệ hỗ trợ kỹ thuật qua Zalo OA gửi kèm ảnh chụp màn hình lỗi. Đội ngũ IT hỗ trợ trong vòng 15 phút trong giờ học. Nếu lỗi kéo dài quá 15 phút và không thể khắc phục, buổi học được dời sang thời điểm khác trong tuần mà không tính phí bổ sung.",
+    "summary": "Hướng dẫn 5 bước xử lý lỗi Zoom và Google Meet cho học sinh học trực tuyến.",
+    "category": "tech_support",
+    "tags": [
+      "Zoom",
+      "Google Meet",
+      "lỗi",
+      "kỹ thuật"
+    ],
+    "service": "online",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "fix_video_call",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/ho-tro/loi-zoom",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-06T15:00:00+07:00",
+    "updated_at": "2025-11-22T20:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0020"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho IT support nếu học sinh không thể kết nối sau khi thực hiện đủ 5 bước.",
+    "typical_questions": [
+      "Không vào được Zoom, phải làm sao?",
+      "Lỗi Google Meet giữa buổi học",
+      "Ứng dụng Zoom bị treo liên tục",
+      "Buổi học online bị lỗi kỹ thuật thì sao?"
+    ]
+  },
+  {
+    "id": "KB-K12-0020",
+    "title": "Xử lý mất kết nối trong buổi học online",
+    "content": "Khi mất kết nối internet trong buổi học trực tuyến, giáo viên sẽ chờ học sinh kết nối lại trong vòng 5 phút. Nếu học sinh không kết nối lại sau 5 phút, giáo viên gửi tin nhắn qua Zalo hỏi tình trạng. Trường hợp mất kết nối do phía giáo viên, trung tâm đảm bảo giáo viên sử dụng kết nối dự phòng 4G. Nếu buổi học bị gián đoạn tổng cộng trên 15 phút, học sinh được bù thời gian vào cuối buổi hoặc xếp buổi bù riêng. Mọi sự cố kỹ thuật được ghi nhận trong nhật ký hệ thống để theo dõi chất lượng dịch vụ. Phụ huynh có thể kiểm tra log sự cố trên tài khoản LMS và yêu cầu xác nhận bù buổi nếu cần.",
+    "summary": "Quy trình xử lý khi mất kết nối trong buổi học trực tuyến gồm thời gian chờ và chính sách bù.",
+    "category": "tech_support",
+    "tags": [
+      "mất kết nối",
+      "internet",
+      "gián đoạn",
+      "trực tuyến"
+    ],
+    "service": "online",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "connection_issue",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/ho-tro/mat-ket-noi",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-21T13:00:00+07:00",
+    "updated_at": "2025-10-20T16:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0019",
+      "KB-K12-0021"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho IT nếu vấn đề mất kết nối xảy ra thường xuyên với cùng một học sinh hoặc giáo viên.",
+    "typical_questions": [
+      "Mất mạng giữa buổi học thì sao?",
+      "Bị ngắt kết nối có được bù không?",
+      "Giáo viên mất mạng thì xử lý thế nào?",
+      "Gián đoạn quá 15 phút thì sao?"
+    ]
+  },
+  {
+    "id": "KB-K12-0021",
+    "title": "Ghi hình buổi học trực tuyến",
+    "content": "Tất cả buổi học trực tuyến tại TG Education được ghi hình tự động qua hệ thống cloud recording. Video buổi học lưu trữ trên hệ thống nội bộ trong 30 ngày kể từ ngày học. Học sinh và phụ huynh có thể yêu cầu xem lại video buổi học qua tài khoản LMS trong thời gian lưu trữ. Link xem video được gửi trong vòng 24 giờ sau buổi học. Video chỉ dùng cho mục đích ôn tập, không được phép tải về, chia sẻ hoặc phát tán dưới bất kỳ hình thức nào. Trung tâm sử dụng video để đánh giá chất lượng giảng dạy khi cần thiết. Sau 30 ngày, video bị xóa tự động theo chính sách bảo mật dữ liệu. Phụ huynh ký đồng ý ghi hình trong hợp đồng đăng ký.",
+    "summary": "Chính sách ghi hình buổi học trực tuyến gồm thời gian lưu trữ, quyền truy cập và quy định sử dụng.",
+    "category": "privacy_security",
+    "tags": [
+      "ghi hình",
+      "recording",
+      "video",
+      "buổi học"
+    ],
+    "service": "online",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "request_recording",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "internal",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/ghi-hinh",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-25T12:00:00+07:00",
+    "updated_at": "2026-01-15T13:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0019",
+      "KB-K12-0035"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý nếu phụ huynh yêu cầu giữ video quá 30 ngày hoặc tải video về.",
+    "typical_questions": [
+      "Buổi học có được ghi hình không?",
+      "Xem lại video buổi học ở đâu?",
+      "Video lưu trữ bao lâu?",
+      "Có tải video buổi học về không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0022",
+    "title": "Quy định sử dụng camera và micro",
+    "content": "Trong buổi học trực tuyến, học sinh phải bật camera trong suốt thời gian học để giáo viên có thể tương tác và đánh giá mức độ tập trung. Micro mở khi trả lời câu hỏi hoặc thảo luận, tắt khi giáo viên đang giảng bài để tránh tiếng ồn. Học sinh cần ngồi ở nơi yên tĩnh, đủ ánh sáng. Nếu camera bị hỏng, học sinh báo ngay cho giáo viên và bộ phận IT để được hỗ trợ. Giáo viên ghi nhận trường hợp học sinh tắt camera không lý do vào báo cáo buổi học. Nếu học sinh thường xuyên tắt camera mà không có lý do chính đáng, trung tâm liên hệ phụ huynh để trao đổi. Quy định này nhằm đảm bảo chất lượng dạy và học trực tuyến.",
+    "summary": "Quy định bật camera, sử dụng micro trong buổi học trực tuyến và xử lý khi vi phạm.",
+    "category": "policies",
+    "tags": [
+      "camera",
+      "micro",
+      "trực tuyến",
+      "quy định"
+    ],
+    "service": "online",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "camera_policy",
+    "audience": "customer",
+    "priority": "low",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/camera",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-17T18:00:00+07:00",
+    "updated_at": "2025-12-05T02:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0019"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho giáo viên chủ nhiệm nếu học sinh liên tục vi phạm quy định camera.",
+    "typical_questions": [
+      "Con có phải bật camera không?",
+      "Quy định micro khi học online?",
+      "Tắt camera có bị phạt không?",
+      "Camera bị hỏng thì sao?"
+    ]
+  },
+  {
+    "id": "KB-K12-0023",
+    "title": "Nội quy lớp học",
+    "content": "Học sinh tại TG Education cần tuân thủ nội quy lớp học sau. Tham gia đúng giờ, trễ quá 10 phút phải xin phép giáo viên. Chuẩn bị đầy đủ sách vở, dụng cụ học tập trước buổi học. Không sử dụng điện thoại cho mục đích ngoài học tập trong giờ học. Tôn trọng giáo viên và các bạn cùng lớp, không có hành vi gây mất trật tự. Hoàn thành bài tập được giao đúng hạn. Đối với lớp trực tuyến, tuân thủ thêm quy định camera và micro. Vi phạm lần đầu nhận nhắc nhở bằng lời, lần thứ hai ghi nhận vào hồ sơ và thông báo phụ huynh, lần thứ ba trở đi trung tâm trao đổi trực tiếp với phụ huynh để có biện pháp phù hợp.",
+    "summary": "Nội quy lớp học gồm các quy định về giờ giấc, thái độ, bài tập và hình thức xử lý vi phạm.",
+    "category": "policies",
+    "tags": [
+      "nội quy",
+      "kỷ luật",
+      "lớp học",
+      "quy tắc"
+    ],
+    "service": "group_class",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "class_rules",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/noi-quy",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-03T11:00:00+07:00",
+    "updated_at": "2025-12-20T18:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0024"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý khi học sinh vi phạm nghiêm trọng hoặc lặp lại nhiều lần.",
+    "typical_questions": [
+      "Nội quy lớp học thế nào?",
+      "Đi trễ có được vào lớp không?",
+      "Vi phạm nội quy bị xử lý ra sao?",
+      "Không làm bài tập có sao không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0024",
+    "title": "Quy tắc ứng xử và bảo vệ học sinh dưới 18 tuổi",
+    "content": "TG Education cam kết bảo vệ quyền lợi và sự an toàn của mọi học sinh, đặc biệt học sinh dưới 18 tuổi. Giáo viên không được liên hệ riêng với học sinh qua kênh cá nhân ngoài hệ thống của trung tâm. Mọi trao đổi giữa giáo viên và học sinh phải thông qua hệ thống LMS hoặc có phụ huynh tham gia. Giáo viên không gặp riêng học sinh tại địa điểm không phải cơ sở trung tâm. Buổi học 1-1 trực tuyến luôn được ghi hình. Trung tâm có quy trình báo cáo bắt buộc cho bất kỳ hành vi không phù hợp nào. Phụ huynh có quyền yêu cầu xem lại video buổi học bất kỳ lúc nào. Nhân viên và giáo viên phải hoàn thành khóa đào tạo về bảo vệ trẻ em khi bắt đầu làm việc.",
+    "summary": "Quy tắc ứng xử bảo vệ học sinh dưới 18 tuổi gồm giới hạn liên hệ và giám sát buổi học.",
+    "category": "policies",
+    "tags": [
+      "bảo vệ",
+      "trẻ em",
+      "an toàn",
+      "ứng xử"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "child_safety",
+    "audience": "internal_agent",
+    "priority": "high",
+    "sensitivity": "restricted",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/bao-ve-hoc-sinh",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-19T12:00:00+07:00",
+    "updated_at": "2025-12-05T20:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0023",
+      "KB-K12-0035"
+    ],
+    "escalation_required": true,
+    "human_handoff_hint": "Luôn chuyển cho giám đốc trung tâm ngay lập tức khi có bất kỳ báo cáo về vi phạm an toàn học sinh.",
+    "typical_questions": [
+      "Trung tâm bảo vệ an toàn cho con thế nào?",
+      "Giáo viên có liên hệ riêng con ngoài giờ không?",
+      "Quy định bảo vệ trẻ em như thế nào?",
+      "Buổi học 1-1 có được giám sát không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0025",
+    "title": "Nghỉ lễ và tạm dừng khóa học",
+    "content": "TG Education nghỉ theo lịch nghỉ lễ quốc gia. Lịch nghỉ lễ được thông báo trước mỗi năm trên website và qua email. Buổi học rơi vào ngày lễ được tự động dời sang tuần liền kề hoặc bù vào ngày khác theo sắp xếp. Học sinh có thể tạm dừng khóa học tối đa 30 ngày trong một gói học với lý do chính đáng như bệnh dài ngày, thi cuối kỳ tại trường hoặc đi xa. Yêu cầu tạm dừng cần gửi trước ít nhất 5 ngày làm việc. Trong thời gian tạm dừng, gói học được gia hạn tương ứng. Mỗi gói chỉ được tạm dừng một lần. Muốn tạm dừng lần thứ hai cần được quản lý phê duyệt.",
+    "summary": "Chính sách nghỉ lễ và quy định tạm dừng khóa học gồm thời gian tối đa và điều kiện áp dụng.",
+    "category": "policies",
+    "tags": [
+      "nghỉ lễ",
+      "tạm dừng",
+      "bảo lưu",
+      "gia hạn"
+    ],
+    "service": "long_term_program",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "pause_course",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/tam-dung",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-29T18:00:00+07:00",
+    "updated_at": "2025-10-26T18:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0010",
+      "KB-K12-0008"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho học vụ khi học sinh yêu cầu tạm dừng lần thứ hai hoặc quá 30 ngày.",
+    "typical_questions": [
+      "Nghỉ lễ có bù buổi không?",
+      "Muốn tạm dừng khóa học thì sao?",
+      "Tạm dừng tối đa được bao lâu?",
+      "Đang thi cuối kỳ, xin tạm ngưng được không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0026",
+    "title": "Bảo vệ dữ liệu cá nhân học sinh",
+    "content": "TG Education cam kết bảo vệ thông tin cá nhân của học sinh và phụ huynh theo quy định pháp luật Việt Nam về bảo vệ dữ liệu cá nhân. Thông tin thu thập bao gồm họ tên, ngày sinh, số điện thoại, email, địa chỉ và kết quả học tập. Dữ liệu được lưu trữ trên hệ thống máy chủ bảo mật tại Việt Nam với mã hóa AES-256. Chỉ nhân viên được ủy quyền mới có quyền truy cập dữ liệu học sinh. Thông tin không được chia sẻ cho bên thứ ba trừ khi có yêu cầu từ cơ quan nhà nước có thẩm quyền. Phụ huynh có quyền yêu cầu xem, chỉnh sửa hoặc xóa dữ liệu cá nhân bất kỳ lúc nào bằng cách gửi yêu cầu qua email privacy@tgeducation.vn. Dữ liệu được xóa trong vòng 30 ngày sau khi học sinh kết thúc khóa học và phụ huynh yêu cầu.",
+    "summary": "Chính sách bảo vệ dữ liệu cá nhân học sinh gồm phạm vi thu thập, lưu trữ và quyền của phụ huynh.",
+    "category": "privacy_security",
+    "tags": [
+      "bảo mật",
+      "dữ liệu",
+      "cá nhân",
+      "quyền riêng tư"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "data_privacy",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/bao-mat",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-30T08:00:00+07:00",
+    "updated_at": "2025-11-27T13:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0027",
+      "KB-K12-0024"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho bộ phận pháp lý khi phụ huynh yêu cầu xóa dữ liệu hoặc khiếu nại về vi phạm quyền riêng tư.",
+    "typical_questions": [
+      "Thông tin cá nhân con có được bảo mật không?",
+      "Dữ liệu học sinh lưu ở đâu?",
+      "Muốn xóa thông tin cá nhân thì làm sao?",
+      "Có chia sẻ dữ liệu cho bên thứ ba không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0027",
+    "title": "Đồng ý của phụ huynh và xác nhận thông tin",
+    "content": "Đối với học sinh dưới 18 tuổi, mọi đăng ký dịch vụ tại TG Education đều yêu cầu sự đồng ý bằng văn bản hoặc điện tử của phụ huynh hoặc người giám hộ hợp pháp. Phụ huynh ký xác nhận đồng ý các nội dung sau khi đăng ký: thu thập và sử dụng thông tin cá nhân, ghi hình buổi học trực tuyến, chia sẻ kết quả học tập với giáo viên phụ trách, liên hệ qua các kênh Zalo, email và điện thoại. Bản đồng ý được lưu trữ điện tử trên hệ thống. Phụ huynh có quyền rút lại sự đồng ý bất kỳ lúc nào bằng văn bản, tuy nhiên việc rút đồng ý các điều khoản cốt lõi có thể ảnh hưởng đến khả năng cung cấp dịch vụ. Mọi thay đổi chính sách sẽ được thông báo trước 14 ngày.",
+    "summary": "Quy định về sự đồng ý bắt buộc của phụ huynh cho học sinh dưới 18 tuổi và quyền rút đồng ý.",
+    "category": "privacy_security",
+    "tags": [
+      "đồng ý",
+      "phụ huynh",
+      "xác nhận",
+      "người giám hộ"
+    ],
+    "service": "1-1",
+    "student_level": "primary",
+    "subject": "multi_subject",
+    "intent": "parental_consent",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/dong-y-phu-huynh",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-22T12:00:00+07:00",
+    "updated_at": "2025-11-02T15:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0026",
+      "KB-K12-0024"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho bộ phận pháp lý khi phụ huynh yêu cầu rút đồng ý hoặc có thắc mắc pháp lý.",
+    "typical_questions": [
+      "Phụ huynh cần ký đồng ý gì?",
+      "Rút lại sự đồng ý được không?",
+      "Con dưới 18 đăng ký cần gì?",
+      "Thay đổi chính sách có báo trước không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0028",
+    "title": "Quy trình tiếp nhận khiếu nại",
+    "content": "TG Education tiếp nhận khiếu nại qua 4 kênh: Zalo OA, email support@tgeducation.vn, hotline 1900-xxxx, và trực tiếp tại cơ sở. Mỗi khiếu nại được gán mã số theo dõi và xác nhận tiếp nhận trong vòng 2 giờ làm việc. Phân loại khiếu nại theo mức độ: thông thường xử lý trong 48 giờ, nghiêm trọng xử lý trong 24 giờ, khẩn cấp xử lý ngay. Bộ phận chăm sóc khách hàng điều tra, thu thập thông tin từ các bên liên quan và đề xuất giải pháp. Kết quả xử lý được thông báo cho phụ huynh qua kênh đã liên hệ. Nếu phụ huynh không hài lòng với kết quả, có quyền yêu cầu escalation lên quản lý cấp cao trong vòng 7 ngày. Toàn bộ khiếu nại được lưu trong CRM để phân tích cải thiện chất lượng.",
+    "summary": "Quy trình tiếp nhận, phân loại và xử lý khiếu nại của khách hàng tại TG Education.",
+    "category": "complaints",
+    "tags": [
+      "khiếu nại",
+      "phản hồi",
+      "xử lý",
+      "CRM"
+    ],
+    "service": "1-1",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "file_complaint",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/khieu-nai",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-26T17:00:00+07:00",
+    "updated_at": "2026-02-16T22:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0029",
+      "KB-K12-0015"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý cấp cao khi khiếu nại được đánh giá mức khẩn cấp hoặc phụ huynh yêu cầu escalation.",
+    "typical_questions": [
+      "Tôi muốn khiếu nại, gửi ở đâu?",
+      "Phản ánh qua kênh nào?",
+      "Bao lâu thì khiếu nại được xử lý?",
+      "Không hài lòng với dịch vụ, phải làm gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0029",
+    "title": "Escalation khiếu nại lên quản lý",
+    "content": "Khi khiếu nại không được giải quyết thỏa đáng ở cấp nhân viên chăm sóc khách hàng, quy trình escalation được kích hoạt. Cấp 1: Trưởng bộ phận CSKH xem xét lại toàn bộ hồ sơ và liên hệ phụ huynh trong vòng 24 giờ. Cấp 2: Quản lý trung tâm can thiệp nếu cấp 1 không giải quyết được trong 3 ngày. Cấp 3: Giám đốc điều hành xử lý các trường hợp đặc biệt nghiêm trọng hoặc có nguy cơ pháp lý. Tại mỗi cấp escalation, phụ huynh nhận được thông tin liên hệ của người chịu trách nhiệm. Thời gian tối đa để giải quyết hoàn toàn một khiếu nại không quá 14 ngày làm việc. Kết quả xử lý cuối cùng được gửi bằng văn bản qua email chính thức.",
+    "summary": "Quy trình escalation khiếu nại qua 3 cấp từ trưởng bộ phận đến giám đốc điều hành.",
+    "category": "complaints",
+    "tags": [
+      "escalation",
+      "leo thang",
+      "quản lý",
+      "cấp cao"
+    ],
+    "service": "1-1",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "escalate_complaint",
+    "audience": "internal_agent",
+    "priority": "high",
+    "sensitivity": "internal",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/khieu-nai/escalation",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-28T18:00:00+07:00",
+    "updated_at": "2025-11-06T00:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0028"
+    ],
+    "escalation_required": true,
+    "human_handoff_hint": "Luôn chuyển cho trưởng bộ phận CSKH khi quy trình escalation được kích hoạt.",
+    "typical_questions": [
+      "Khiếu nại không được giải quyết thì sao?",
+      "Muốn nói chuyện với quản lý cấp cao",
+      "Quy trình escalation thế nào?",
+      "Ai là người chịu trách nhiệm cuối cùng?"
+    ]
+  },
+  {
+    "id": "KB-K12-0030",
+    "title": "Chương trình luyện thi vào lớp 10",
+    "content": "TG Education cung cấp chương trình luyện thi chuyên biệt cho kỳ thi tuyển sinh vào lớp 10 tại Hà Nội và TP.HCM. Chương trình kéo dài 4 đến 6 tháng, bắt đầu từ tháng 1 hằng năm. Các môn luyện thi bao gồm Toán, Ngữ văn và Tiếng Anh theo đề thi của Sở Giáo dục. Hình thức học gồm lớp nhóm 6 đến 8 học sinh hoặc kèm riêng 1-1. Mỗi tuần 2 đến 3 buổi, mỗi buổi 90 phút. Chương trình chia 3 giai đoạn: ôn kiến thức nền tảng, luyện dạng bài nâng cao và thi thử định kỳ. Học sinh tham gia 4 đợt thi thử mô phỏng đề thi thật. Kết quả thi thử được phân tích chi tiết theo từng dạng bài kèm đề xuất ôn tập bổ sung. Phụ huynh nhận đánh giá tiến bộ hằng tháng.",
+    "summary": "Giới thiệu chương trình luyện thi vào lớp 10 gồm thời lượng, hình thức và cấu trúc 3 giai đoạn.",
+    "category": "enrollment",
+    "tags": [
+      "luyện thi",
+      "vào 10",
+      "tuyển sinh",
+      "lớp 10"
+    ],
+    "service": "exam_prep",
+    "student_level": "middle_school",
+    "subject": "math",
+    "intent": "exam_prep_grade10",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/luyen-thi/vao-10",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-23T18:00:00+07:00",
+    "updated_at": "2026-01-28T20:00:00+07:00",
+    "locale": "HN",
+    "related_ids": [
+      "KB-K12-0031",
+      "KB-K12-0005"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn viên luyện thi khi phụ huynh muốn đăng ký hoặc hỏi chi tiết lịch khai giảng.",
+    "typical_questions": [
+      "Có khóa luyện thi vào 10 không?",
+      "Luyện thi vào lớp 10 bao lâu?",
+      "Luyện thi vào 10 gồm những môn gì?",
+      "Khi nào khai giảng lớp luyện thi vào 10?",
+      "Có thi thử trước khi thi thật không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0031",
+    "title": "Chương trình luyện thi THPTQG",
+    "content": "Chương trình luyện thi Tốt nghiệp THPT Quốc gia tại TG Education dành cho học sinh lớp 12. Thời gian bắt đầu từ tháng 9 năm lớp 12, kéo dài đến trước kỳ thi khoảng 2 tuần. Các môn luyện thi: Toán, Vật lý, Hóa học, Tiếng Anh với giáo viên có kinh nghiệm ra đề và chấm thi. Lộ trình 4 giai đoạn: hệ thống kiến thức cơ bản từ lớp 10 đến 12, luyện các dạng bài thường gặp, thi thử và phân tích đề, rèn tốc độ và kỹ năng làm bài. Học sinh tham gia 6 đợt thi thử quy mô lớn với đề thi chuẩn cấu trúc Bộ GD. Điểm thi thử được xếp hạng trong hệ thống toàn trung tâm. Hỗ trợ tư vấn chọn ngành nghề và trường đại học sau khi có kết quả thi thử.",
+    "summary": "Chương trình luyện thi THPTQG lớp 12 gồm lộ trình 4 giai đoạn và 6 đợt thi thử.",
+    "category": "enrollment",
+    "tags": [
+      "THPTQG",
+      "tốt nghiệp",
+      "lớp 12",
+      "đại học"
+    ],
+    "service": "exam_prep",
+    "student_level": "high_school",
+    "subject": "multi_subject",
+    "intent": "exam_prep_thptqg",
+    "audience": "customer",
+    "priority": "high",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/luyen-thi/thptqg",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-10-04T10:00:00+07:00",
+    "updated_at": "2025-10-26T18:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0030",
+      "KB-K12-0005"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn viên luyện thi khi phụ huynh muốn tư vấn chọn môn hoặc ngành nghề.",
+    "typical_questions": [
+      "Có lớp luyện thi tốt nghiệp THPT không?",
+      "Ôn thi THPTQG bao lâu?",
+      "Có tư vấn chọn ngành đại học không?",
+      "Luyện thi THPTQG gồm những gì?",
+      "Bao nhiêu đợt thi thử?"
+    ]
+  },
+  {
+    "id": "KB-K12-0032",
+    "title": "Trao đổi phụ huynh và giáo viên",
+    "content": "TG Education tạo điều kiện cho phụ huynh và giáo viên trao đổi thường xuyên về tình hình học tập. Kênh trao đổi chính thức là hệ thống tin nhắn trên LMS, đảm bảo bảo mật và có lưu trữ. Phụ huynh đặt lịch họp online hoặc trực tiếp với giáo viên mỗi tháng một lần qua tính năng đặt lịch trên LMS. Cuộc họp kéo dài tối đa 30 phút. Giáo viên phản hồi tin nhắn phụ huynh trong vòng 24 giờ vào ngày làm việc. Ngoài ra, sau mỗi bài kiểm tra quan trọng, giáo viên chủ động liên hệ phụ huynh thông báo kết quả và đề xuất hướng cải thiện. Mọi trao đổi giữa giáo viên và phụ huynh cần giữ phong cách chuyên nghiệp, tập trung vào việc học. Trung tâm không cho phép trao đổi qua kênh cá nhân.",
+    "summary": "Các hình thức trao đổi giữa phụ huynh và giáo viên gồm tin nhắn LMS và họp định kỳ.",
+    "category": "learning_support",
+    "tags": [
+      "phụ huynh",
+      "giáo viên",
+      "trao đổi",
+      "họp"
+    ],
+    "service": "1-1",
+    "student_level": "primary",
+    "subject": "multi_subject",
+    "intent": "parent_teacher_comm",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/trao-doi-phu-huynh",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-08T12:00:00+07:00",
+    "updated_at": "2026-01-01T18:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0016"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý giáo viên nếu phụ huynh phản ánh giáo viên không phản hồi hoặc trao đổi ngoài kênh chính thức.",
+    "typical_questions": [
+      "Phụ huynh liên hệ giáo viên bằng cách nào?",
+      "Có được gặp giáo viên trao đổi không?",
+      "Giáo viên bao lâu phản hồi tin nhắn?",
+      "Đặt lịch họp với giáo viên thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0033",
+    "title": "Hướng dẫn đăng nhập hệ thống LMS",
+    "content": "Phụ huynh và học sinh nhận tài khoản LMS qua email sau khi hoàn tất đăng ký. Truy cập app.tgeducation.vn hoặc tải ứng dụng TG Education trên iOS và Android. Đăng nhập bằng email hoặc số điện thoại đã đăng ký kèm mật khẩu được cung cấp. Đổi mật khẩu lần đầu đăng nhập là bắt buộc. Quên mật khẩu: nhấn nút Quên mật khẩu trên trang đăng nhập, nhập email hoặc số điện thoại, nhận mã OTP và tạo mật khẩu mới. Tài khoản bị khóa sau 5 lần đăng nhập sai, liên hệ IT support để mở khóa. Tài khoản phụ huynh và học sinh liên kết với nhau, phụ huynh có thể theo dõi mọi hoạt động học tập của con. Mỗi tài khoản chỉ đăng nhập tối đa 3 thiết bị cùng lúc.",
+    "summary": "Hướng dẫn đăng nhập, đổi mật khẩu và khắc phục lỗi truy cập hệ thống LMS.",
+    "category": "tech_support",
+    "tags": [
+      "LMS",
+      "đăng nhập",
+      "mật khẩu",
+      "tài khoản"
+    ],
+    "service": "online",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "lms_login_help",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/ho-tro/dang-nhap",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-12-24T17:00:00+07:00",
+    "updated_at": "2026-01-25T22:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0019"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho IT khi tài khoản bị khóa hoặc phụ huynh không nhận được email kích hoạt.",
+    "typical_questions": [
+      "Đăng nhập LMS thế nào?",
+      "Quên mật khẩu LMS phải làm sao?",
+      "Tải ứng dụng ở đâu?",
+      "Tài khoản bị khóa, mở lại thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0034",
+    "title": "Học phí môn Toán theo cấp lớp",
+    "content": "Học phí môn Toán tại TG Education chia theo cấp lớp. Tiểu học lớp 1 đến 5: học 1-1 giá 250.000 đồng mỗi buổi 60 phút, nhóm nhỏ 120.000 đồng mỗi buổi 75 phút. Trung học cơ sở lớp 6 đến 9: học 1-1 giá 300.000 đồng mỗi buổi 75 phút, nhóm nhỏ 150.000 đồng mỗi buổi 90 phút. Trung học phổ thông lớp 10 đến 12: học 1-1 giá 350.000 đồng mỗi buổi 90 phút, nhóm nhỏ 180.000 đồng mỗi buổi 90 phút. Luyện thi vào 10 và THPTQG có bảng giá riêng tùy gói. Giá trên áp dụng tại tất cả cơ sở và hình thức học trực tuyến. Phụ huynh tiết kiệm thêm khi đăng ký gói dài hạn theo chính sách giảm giá.",
+    "summary": "Bảng học phí chi tiết môn Toán theo cấp tiểu học, THCS và THPT cho cả hình thức 1-1 và nhóm.",
+    "category": "pricing_billing",
+    "tags": [
+      "học phí",
+      "toán",
+      "giá",
+      "bảng giá"
+    ],
+    "service": "1-1",
+    "student_level": "primary",
+    "subject": "math",
+    "intent": "ask_math_pricing",
+    "audience": "customer",
+    "priority": "medium",
+    "sensitivity": "public",
+    "source_type": "pricing_sheet",
+    "source_url": "tgeducation.vn/hoc-phi/toan",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-29T10:00:00+07:00",
+    "updated_at": "2025-11-07T17:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0005",
+      "KB-K12-0006"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn khi phụ huynh hỏi giá gói luyện thi chuyên đề Toán.",
+    "typical_questions": [
+      "Học phí môn Toán bao nhiêu?",
+      "Toán lớp 9 học 1-1 giá bao nhiêu?",
+      "Toán tiểu học học nhóm giá bao nhiêu?",
+      "Toán lớp 12 phí thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0035",
+    "title": "Lưu trữ và bảo mật video buổi học",
+    "content": "Video buổi học trực tuyến được lưu trữ trên hệ thống cloud bảo mật của TG Education. Dữ liệu video mã hóa trong quá trình truyền tải và lưu trữ. Chỉ phụ huynh, học sinh liên quan và nhân viên được ủy quyền mới có quyền truy cập. Video lưu trữ tối đa 30 ngày sau buổi học rồi tự động xóa khỏi hệ thống. Trường hợp cần giữ video lâu hơn cho mục đích điều tra khiếu nại, quản lý trung tâm phê duyệt gia hạn lưu trữ tối đa thêm 60 ngày. Nhân viên không được tải video về thiết bị cá nhân. Vi phạm quy định bảo mật video bị xử lý kỷ luật nghiêm. Phụ huynh ký đồng ý cho ghi hình buổi học trong biểu mẫu đồng ý khi đăng ký dịch vụ trực tuyến.",
+    "summary": "Chính sách lưu trữ, bảo mật video buổi học gồm thời hạn, quyền truy cập và quy định nhân viên.",
+    "category": "privacy_security",
+    "tags": [
+      "video",
+      "bảo mật",
+      "lưu trữ",
+      "cloud"
+    ],
+    "service": "online",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "video_privacy",
+    "audience": "internal_agent",
+    "priority": "high",
+    "sensitivity": "restricted",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/bao-mat-video",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-09-12T08:00:00+07:00",
+    "updated_at": "2025-09-26T10:00:00+07:00",
+    "locale": "Online",
+    "related_ids": [
+      "KB-K12-0021",
+      "KB-K12-0026"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho quản lý IT và pháp lý khi phát hiện vi phạm bảo mật video hoặc truy cập trái phép.",
+    "typical_questions": [
+      "Video buổi học bảo mật thế nào?",
+      "Ai được xem video buổi học?",
+      "Video lưu bao lâu thì xóa?",
+      "Nhân viên có tải video về không?"
+    ]
+  },
+  {
+    "id": "KB-K12-0036",
+    "title": "Chính sách hoàn tiền một phần",
+    "content": "Khi học sinh đã sử dụng một phần gói học và yêu cầu hoàn tiền, TG Education tính toán số tiền hoàn dựa trên công thức: Tiền hoàn bằng tổng học phí trừ đi số buổi đã học nhân đơn giá lẻ nhân hệ số phạt. Hệ số phạt là 1.0 nếu dưới 30 phần trăm buổi đã học và 1.3 nếu từ 30 đến 50 phần trăm. Đơn giá lẻ là giá niêm yết cho từng buổi không áp dụng giảm giá gói. Ví dụ: gói 40 buổi Toán lớp 9 giá 10.400.000 đồng, đã học 10 buổi đơn giá lẻ 300.000 đồng, tiền hoàn bằng 10.400.000 trừ 3.000.000 bằng 7.400.000 đồng. Phụ huynh nhận bản tính chi tiết qua email trước khi xác nhận đồng ý hoàn tiền. Sau khi phụ huynh xác nhận, tiền được chuyển trong 7 đến 14 ngày làm việc.",
+    "summary": "Công thức và ví dụ tính toán hoàn tiền một phần gói học khi học sinh dừng giữa chừng.",
+    "category": "pricing_billing",
+    "tags": [
+      "hoàn tiền",
+      "tính toán",
+      "một phần",
+      "công thức"
+    ],
+    "service": "long_term_program",
+    "student_level": "middle_school",
+    "subject": "math",
+    "intent": "partial_refund_calc",
+    "audience": "internal_agent",
+    "priority": "high",
+    "sensitivity": "internal",
+    "source_type": "policy",
+    "source_url": "tgeducation.vn/chinh-sach/hoan-tien-mot-phan",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-20T10:00:00+07:00",
+    "updated_at": "2026-01-16T16:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0008",
+      "KB-K12-0009"
+    ],
+    "escalation_required": true,
+    "human_handoff_hint": "Luôn chuyển cho kế toán để xác minh số liệu trước khi gửi bản tính hoàn tiền cho phụ huynh.",
+    "typical_questions": [
+      "Hoàn tiền một phần tính như thế nào?",
+      "Công thức tính hoàn tiền?",
+      "Đã học 10 buổi, hoàn được bao nhiêu?",
+      "Phí phạt khi hoàn tiền là bao nhiêu?"
+    ]
+  },
+  {
+    "id": "KB-K12-0037",
+    "title": "Thông tin về môn Vật Lý",
+    "content": "TG Education cung cấp chương trình học Vật Lý cho học sinh lớp 6 đến lớp 12. Chương trình bám sát sách giáo khoa và bổ sung bài tập nâng cao. Đối với lớp 6 đến 9: tập trung xây dựng tư duy thực nghiệm, hiểu bản chất hiện tượng vật lý qua ví dụ thực tế. Đối với lớp 10 đến 12: kết hợp lý thuyết chuyên sâu và giải bài tập theo phương pháp hệ thống. Đặc biệt chú trọng các chủ đề thường xuất hiện trong đề thi THPTQG như cơ học, điện học, quang học và vật lý hạt nhân. Mỗi buổi học kết hợp giảng lý thuyết 30 phần trăm và luyện bài 70 phần trăm. Giáo viên Vật Lý tại TG Education đều tốt nghiệp đại học sư phạm hoặc bách khoa với ít nhất 3 năm kinh nghiệm.",
+    "summary": "Giới thiệu chương trình Vật Lý từ lớp 6 đến 12 kèm phương pháp và trọng tâm luyện thi.",
+    "category": "general",
+    "tags": [
+      "vật lý",
+      "physics",
+      "chương trình",
+      "bài tập"
+    ],
+    "service": "group_class",
+    "student_level": "high_school",
+    "subject": "physics",
+    "intent": "ask_physics_info",
+    "audience": "customer",
+    "priority": "low",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/mon-hoc/vat-ly",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-16T09:00:00+07:00",
+    "updated_at": "2025-12-17T15:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0038"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn khi phụ huynh muốn đăng ký học Vật Lý hoặc hỏi lịch khai giảng.",
+    "typical_questions": [
+      "Có dạy Vật Lý không?",
+      "Môn Lý dạy từ lớp mấy đến lớp mấy?",
+      "Giáo viên Vật Lý có tốt không?",
+      "Phương pháp dạy Vật Lý thế nào?"
+    ]
+  },
+  {
+    "id": "KB-K12-0038",
+    "title": "Thông tin về môn Hóa Học",
+    "content": "Chương trình Hóa Học tại TG Education dành cho học sinh lớp 8 đến lớp 12. Lớp 8 và 9: nền tảng hóa vô cơ và hóa hữu cơ cơ bản, rèn kỹ năng viết phương trình và cân bằng hóa học. Lớp 10 đến 12: chia thành hóa vô cơ và hóa hữu cơ chuyên sâu, tập trung vào lý thuyết trọng tâm và phương pháp giải nhanh trắc nghiệm. Chương trình luyện thi THPTQG môn Hóa bao gồm hệ thống toàn bộ kiến thức 3 năm THPT, phân loại 12 dạng bài thường gặp trong đề thi và luyện đề thi thử hằng tuần. Giáo viên sử dụng phương pháp sơ đồ tư duy và kỹ thuật giải nhanh giúp học sinh tiết kiệm thời gian làm bài. Phòng thí nghiệm ảo được tích hợp trên LMS cho các bài thực hành.",
+    "summary": "Giới thiệu chương trình Hóa Học lớp 8 đến 12 gồm nội dung, phương pháp và luyện thi.",
+    "category": "general",
+    "tags": [
+      "hóa học",
+      "chemistry",
+      "chương trình",
+      "luyện thi"
+    ],
+    "service": "group_class",
+    "student_level": "high_school",
+    "subject": "chemistry",
+    "intent": "ask_chemistry_info",
+    "audience": "customer",
+    "priority": "low",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/mon-hoc/hoa-hoc",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-16T15:00:00+07:00",
+    "updated_at": "2025-12-26T19:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0037"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn khi phụ huynh muốn đăng ký học Hóa hoặc hỏi về phòng thí nghiệm ảo.",
+    "typical_questions": [
+      "Có dạy Hóa Học không?",
+      "Môn Hóa luyện thi THPTQG gồm gì?",
+      "Có phòng thí nghiệm ảo không?",
+      "Hóa Học dạy từ lớp mấy?"
+    ]
+  },
+  {
+    "id": "KB-K12-0039",
+    "title": "Thông tin về môn Tiếng Anh",
+    "content": "TG Education cung cấp chương trình Tiếng Anh toàn diện cho học sinh từ lớp 1 đến lớp 12. Tiểu học: phát triển 4 kỹ năng nghe nói đọc viết qua phương pháp giao tiếp và trò chơi tương tác. THCS: nâng cao ngữ pháp, từ vựng và luyện kỹ năng đọc hiểu theo chuẩn chương trình mới. THPT: tập trung ngữ pháp nâng cao, viết luận, đọc hiểu học thuật và luyện thi THPTQG. Ngoài chương trình theo trường, TG Education có khóa luyện thi chứng chỉ Cambridge KET, PET, FCE cho học sinh muốn lấy chứng chỉ quốc tế. Giáo viên Tiếng Anh gồm giáo viên Việt Nam có chứng chỉ IELTS 7.5 trở lên và giáo viên bản ngữ có bằng TESOL. Buổi học kết hợp giáo trình chuẩn quốc tế và tài liệu bổ trợ do trung tâm biên soạn.",
+    "summary": "Chương trình Tiếng Anh từ lớp 1 đến 12 gồm chương trình theo trường và luyện thi chứng chỉ quốc tế.",
+    "category": "general",
+    "tags": [
+      "tiếng Anh",
+      "English",
+      "chứng chỉ",
+      "giao tiếp"
+    ],
+    "service": "group_class",
+    "student_level": "primary",
+    "subject": "english",
+    "intent": "ask_english_info",
+    "audience": "customer",
+    "priority": "low",
+    "sensitivity": "public",
+    "source_type": "knowledge_article",
+    "source_url": "tgeducation.vn/mon-hoc/tieng-anh",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-10T08:00:00+07:00",
+    "updated_at": "2025-12-30T09:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [
+      "KB-K12-0034"
+    ],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho tư vấn khi phụ huynh hỏi về khóa luyện thi chứng chỉ Cambridge hoặc lớp giáo viên bản ngữ.",
+    "typical_questions": [
+      "Có dạy Tiếng Anh không?",
+      "Có giáo viên bản ngữ không?",
+      "Có luyện thi Cambridge không?",
+      "Tiếng Anh tiểu học dạy thế nào?",
+      "Giáo viên Tiếng Anh có chứng chỉ gì?"
+    ]
+  },
+  {
+    "id": "KB-K12-0040",
+    "title": "Giờ hoạt động và liên hệ các cơ sở",
+    "content": "TG Education hoạt động tại 2 cơ sở chính. Cơ sở Hà Nội: 123 Nguyễn Trãi, Thanh Xuân, Hà Nội. Cơ sở TP.HCM: 456 Lê Văn Sỹ, Quận 3, TP.HCM. Giờ mở cửa cả hai cơ sở: thứ Hai đến thứ Sáu từ 8 giờ sáng đến 9 giờ tối, thứ Bảy và Chủ nhật từ 8 giờ sáng đến 6 giờ chiều. Hotline tổng đài: 1900-xxxx, hoạt động từ 8 giờ đến 9 giờ tối mỗi ngày. Email hỗ trợ: support@tgeducation.vn, phản hồi trong 24 giờ làm việc. Zalo OA: TG Education Center, phản hồi tự động 24 trên 7 và nhân viên hỗ trợ trong giờ hành chính. Lớp học trực tuyến hoạt động linh hoạt từ 7 giờ sáng đến 10 giờ tối hằng ngày kể cả cuối tuần.",
+    "summary": "Địa chỉ, giờ hoạt động và kênh liên hệ của các cơ sở TG Education tại Hà Nội và TP.HCM.",
+    "category": "general",
+    "tags": [
+      "địa chỉ",
+      "liên hệ",
+      "giờ mở cửa",
+      "hotline"
+    ],
+    "service": "offline",
+    "student_level": "middle_school",
+    "subject": "multi_subject",
+    "intent": "contact_info",
+    "audience": "customer",
+    "priority": "low",
+    "sensitivity": "public",
+    "source_type": "manual",
+    "source_url": "tgeducation.vn/lien-he",
+    "doc_version": "v1.0",
+    "language": "vi",
+    "created_at": "2025-11-27T16:00:00+07:00",
+    "updated_at": "2026-01-21T20:00:00+07:00",
+    "locale": "VN",
+    "related_ids": [],
+    "escalation_required": false,
+    "human_handoff_hint": "Chuyển cho lễ tân cơ sở khi phụ huynh cần hẹn đến thăm trực tiếp ngoài giờ hành chính.",
+    "typical_questions": [
+      "Địa chỉ trung tâm ở đâu?",
+      "Giờ mở cửa thế nào?",
+      "Số hotline là gì?",
+      "Liên hệ qua Zalo thế nào?",
+      "Có cơ sở ở TP.HCM không?"
+    ]
+  }
+]
